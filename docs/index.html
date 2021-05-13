@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="https://kit.fontawesome.com/3504e2dcd9.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/contacto.css">
+        <link rel="stylesheet" href="styles/nav-mobile.css">
+        <link rel="stylesheet" href="styles/style.css">
+    
+    <title>Mi portfolio</title>
+</head>
+
+<body>
+    <div class="inicio">
+        <nav>
+            <ul class="nav_redes">
+                <li>
+                    <a href="https://www.linkedin.com/in/montes-de-oca/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/kroower" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/channel/UCZpKgXWAcyJ36QHsogF2b6A" target="_blank">
+                        <i class="fab fa-youtube-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="download/CV-Montes De Oca .pdf" class="download" id="dw" download="CV-Montes_De_Oca.pdf">
+                        <p>CV⮯</p>
+                    </a>
+                </li>
+                <!-- <i class="fas fa-file-download"></i> -->
+            </ul>
+            <div class="nav_sidevar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre_mi">Sobre mi</a></li>
+                    <li><a href="#carouselExampleCaptions">Herramientas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <a href="" class="hamb" ><i class="fas fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="nav-mobile ocultar">
+            <ul>
+                <li class="btn btn-danger">X</li>
+                <li class="ini"><a href="#inicio">Inicio</a></li>
+                <li class="sobreMi"><a href="#sobre_mi">Sobre mi</a></li>
+                <li class="herramientas">
+                    <a href="#carouselExampleCaptions">Herramientas</a>
+                </li>
+                <li class="contacto-li"><a href="#contacto">Contacto</a></li>
+
+                <li>
+                    <a href="download/CV-Montes De Oca .pdf" class="cv" download="CV-Montes_De_Oca.pdf">
+                        <p>Descarga mi CV⮯</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="banner" id="inicio">
+            <h1>Desarrollador Web</h1>
+        </div>
+    </div>
+    <div class="inicio_contenedor">
+        <div class="inicio_foto_perfil">
+            <img src="imagenes/perfil.jpg" alt="" id="sobre_mi">
+        </div>
+    </div>
+    <div class="borde-loco"></div>
+    <div class="container sobremi .mobile-100" >
+        <div class="row justify-content-end">
+            <div class="col-md-8">
+                <div class="sobremi_titulo">
+                    <h1>Sobre mi</h1>
+                </div><br>
+                <div class="sobremi_text">
+                    <h4>
+                        Apasionado por descubrir y crear herramientas tecnológicas.
+                    </h4><br>
+                    <p>
+                        Un poco de mi: <br>
+
+                         Soy técnico electrónico, me recibí en el 2012 y desde entonces me dedique a trabajar.
+                        Siempre fui curioso e investigue diversos temas, tanto laborales como personales. <br><br>
+
+                         Lo mejor que me paso en el 2020 fue descubrir una tecnología nueva (html). esto me abrió un
+                        mundo nuevo que me estalla la cabeza día a día. <br><br>
+
+                         Mi principal meta es establecerme dentro del mundo del desarrollo web y programación en
+                        general. Para cumplir con dichos objetivos realizo diferentes capacitaciones online y
+                        practicas.<br><br>
+
+                         Siempre me encanto la tecnología pero por razones personales nunca les pude prestar la
+                        atención que se merecían y en esta etapa de mi vida eh logrado reconectarme con ella y me
+                        encanta. Este viaje arranco en octubre 2020, pero espero no termine nunca.<br><br>
+
+                        Dentro de mis aficiones personales se encuentran las artes marciales, los cubos de rubik y
+                        bricolaje.<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------oculto temporalmente con display none------------>
+    <!---------------Se me mantienen todas las clases de CSS----------->
+    <!-- <section>
+        <div class="herramienta">
+            <img src="imagenes/herramientas/html-hojita-naranja.svg" alt="">
+        </div>
+
+        <div class="herramienta">
+            <img src="imagenes/herramientas/css-hojita.svg" alt="">
+        </div>
+
+        <div class="herramienta">
+            <img src="imagenes/herramientas/JS-hojita.svg" alt="">
+        </div>
+
+        <div class="herramienta">
+            <img src="imagenes/herramientas/json-hojita.svg" alt="">
+        </div>
+
+        <div class="herramienta">
+            <img src="imagenes/herramientas/json-hojita.svg" alt="">
+        </div>
+
+        <div class="herramienta">
+            <img class="herramienta_img" src="imagenes/herramientas/React-azul-loco.jfif" alt="">
+        </div>
+
+        <div class="herramienta">
+            <img class="herramienta_img" src="imagenes/herramientas/github-azul-circle.svg" alt="">
+        </div>
+    </section> -->
+    <!-- <section class="cajitas">
+        <div class="cajitas_caja caja-mobile-100">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Jquery</li>
+                <li>Firebase</li>
+            </ul>
+        </div>
+
+        <div class="cajitas_caja caja-mobile-100">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </div>
+    </section> -->
+
+    <div id="carouselExampleCaptions" class="carousel slide mobile-80" data-bs-ride="carousel">
+        <!---------------------esto controla los puntos centrales de navegacion----------------------------->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+        </div>
+        <!-----------------estos son los diferntes elementos del carousel---------------------------->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/herramientas/JS-amarillito.svg" class="carousel_item" alt="...">
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div> ------descripcion de la imagen(p) y titulo(h5)-------------->
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/herramientas/react.svg" class="carousel_item" alt="React logo">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/herramientas/html-hojita-naranja.svg" class="carousel_item" alt="HTML logo">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/herramientas/github.svg" class="carousel_item" alt="Github">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/herramientas/css-hojita.svg" class="carousel_item" alt="CSS logo">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/herramientas/json-hojita.svg" class="carousel_item" alt="Json logo">
+            </div>
+        </div>
+        <!----------------------botones laterales para pasar la imagen-------------------->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+    
+    
+    <div class="contacto" id="contacto">
+        <div class="contacto_head">
+            <h1 class="contacto_head_titulo">
+                Contactame
+            </h1>
+        </div>
+        <div class="formulario mobile-100">
+            <form class="form-mobile" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mnqljval" method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label class="form_label" for="full-name">Nombre</label>
+                    <input type="text" name="name" id="full-name" class="form_control" placeholder="Ingresa tu nombre" required="">
+
+                    <label for="email-address" class="form_label">Correo electronico</label>
+                    <input type="email" name="_replyto" id="email-address" class="form_control" placeholder="nombre@ejemplo.com" required="">
+
+                    <label for="message" class="form_label">Mensaje</label>
+                    <textarea name="message" id="message" placeholder="Ingresa tu mensaje" required=""
+                    class="form_control mensaje"></textarea>
+                    <input type="hidden" name="_subject" id="email-subject"  value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Enviar" class="btn btn-primary mobile-100">
+            </form>
+        </div>
+
+        <div class="contacto_info mobile-100">
+            <div class="datos mobile-101">
+			    <ul class="px-0 datos-contacto">
+				    <li><i class="fa fa-map-marker" aria-hidden="true"></i></li> 
+				    <li><h4>Residencia:</h4>Quilmes Oeste</li>
+                </ul>
+            </div>
+
+            <div class="datos mobile-101">
+                <ul class="px-0 datos-contacto">
+                    <li><i class="fa fa-mobile" aria-hidden="true"></i></li>
+			        <li><h4>Teléfono:</h4>+54 11-5475-1721</li>
+                </ul>
+            </div>
+
+            <div class="datos mobile-101">
+                <ul class="px-0 datos-contacto">
+                    <li>
+                        <a href="mailto:fernando.proff@hotmail.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li><h4>E-mail</h4>fernando.proff@hotmail.com</li>
+                </ul>
+            </div>
+
+            <div class="datos mobile-101">
+                <ul class="px-0 datos-contacto">
+                <li><i class="fab fa-github" aria-hidden="true"></i></li> 
+                <li><h4>Github:</h4>@FerWeb</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><i class="fas fa-copyright"></i><span class="derechos">Derechos reservados 2021</span></p>
+    </footer>
+    <!-- SCRIP PARA ENVIAR MENSAJES DESDE UN FORMULARIO (EMAILJS) -->
+
+    <!-- <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_7HgIwIPBXTz3waeQyJgN1");
+        })();
+    </script> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+        </script>
+
+    <script src="js/jquery.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+.inicio{
+    background-image: url(../imagenes/fondo-web-fer.jpg);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+    border-bottom: 7px solid rgb(52, 221, 165);
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 350;
+}
+.borde-loco{
+    left: 150px;
+    margin-top: 70px;
+    width: 90%;
+    height: 690px;
+    border-radius: 0 0 0 50px;
+    border-bottom: 7px solid rgb(52, 221, 165) ;
+    border-left: 7px solid rgb(52, 221, 165) ;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+nav p{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 24px;
+    text-align: center;
+    width: 60px;
+    height: 38px;
+    background-color: white;
+    border-radius: 15%;
+    font-weight:bolder;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    background-color: rgb(10, 9, 9,0.4);
+    font-size: 40px;
+    z-index: 999;
+    
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+.nav_sidevar{
+    font-size :26px;
+    display: flex;
+    color: white;
+    margin-right: 10px;
+}
+a, a:hover{
+    color: white;
+    list-style: none;
+}
+.nav_sidevar ul li{
+    margin-right: 10px;
+}
+.banner{
+    background-color: rgb(52, 221, 165);
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    padding-top: 5px;
+    text-align: center;
+    margin-left: -200px;
+}
+.inicio_contenedor{
+    position: absolute;
+    width:260px;
+    height: 270px;
+    top: 70%;
+    border-radius: 30%;
+    margin-top: -135px;
+    margin-left: 30px;
+    background-color: rgb(52, 221, 165);
+    
+}
+.inicio_foto_perfil{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 30%;
+    z-index: 2;
+}
+.inicio_foto_perfil img{
+    width:250px;
+    height: 260px;
+    border: 2px  solid rgb(52, 221, 165);
+    border-radius: 30%;
+    object-fit:cover;
+    z-index: 3;
+    
+}
+.principal{
+    color: black;
+    text-align: center;
+    margin-left: 50%;
+}
+.fab{
+    color: white;
+}
+.hamb{
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: right;
+}
+.sobremi{
+    margin-top: 20px;
+    margin-left: -3%;
+    overflow: hidden;
+}
+.sobremi_text{
+    margin-top: 12px;
+}
+
+/*******************oculto hasta la proxima marca*********/
+#herramientas{
+    display: none; /*cambiar por display flex para volver a mostrar*/
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(52, 221, 165);
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.herramienta{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.herramienta_img{
+    min-width: 300px;
+    min-height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 25%;
+}/*********************final de la marca**************************/
+
+.carousel_item{
+    min-width: 150px;
+    min-height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5%;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: flex;
+    justify-content: center;
+}
+.carousel-control-next-icon{
+    background-image:url(../imagenes/right-arrow.svg);
+}
+.carousel-control-prev-icon{
+    background-image:url(../imagenes/left-arrow.svg);
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 15px ;
+    background: rgb(52, 221, 165);
+}
+.derechos{
+    margin-left: 5px;
+}
+@media screen and (min-width:1400px) and (max-width:2050px){
+    .borde-loco{
+        height: 580px;
+        width: 92%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:1320px) {
+    .borde-loco{
+        display: none;
+    }
+    .mobile-80{
+        margin-top: 10px;
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }
+    .sobremi{
+        margin-top:30px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width:240px) and (max-width:1000px) 
+{
+    .hamb{
+        display: inline;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .nav_sidevar ul{
+        display: none;
+    }
+    .inicio_contenedor{
+        left: 50%;
+        margin-left: -125px;
+    }
+    .container .row{
+        justify-content: center;
+    }
+    .sobremi{
+        margin-top: 150px;
+        margin-left: auto;
+    }
+    .col-md-8{
+        width:auto;
+    }
+    #herramientas{
+        justify-content:space-evenly
+    }
+    .mobile-80{
+        margin-top: 10px;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+    .mobile-100{
+        width: 100% !important;
+    }
+    .form-mobile{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .carousel_item{
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

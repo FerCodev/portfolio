@@ -1,0 +1,31 @@
+.nav-mobile{
+    position: fixed;
+    background: rgb(10, 9, 9,0.6);
+    /* display: none; */
+    width: 100%;
+    border-radius: 0 0 5px 0;
+    z-index: 99998989898989;
+}
+.nav-mobile ul{
+    list-style: none;
+    padding: -15px 50px 20px 30px;
+    font-size: 30px;
+    left: 50%;
+    margin-top: 10px;
+}
+.nav-mobile ul li{
+    z-index: 999989898989898998;
+    margin-bottom: 10px;
+}
+.btn.btn-danger{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+}
+.nav-mobile ul li a{
+    color: cornsilk;
+    margin-top: 10px;
+}
+.ocultar{
+    display: none;
+}

@@ -1,0 +1,108 @@
+
+.contacto{
+    width: 100%;
+    /* background: rgb(128, 128, 128,0.5); */
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contacto_head{
+    width: 100%;
+    position: relative;
+    flex-wrap: nowrap;
+    padding:  10px 0 10px 0;
+    min-height: 60px;
+    text-align: center;
+/*     background: rgb(52, 221, 165) ; */
+    
+}
+.contacto_head_titulo{
+    width: 300px;
+    position: absolute;
+    margin-left: -150px;
+    left: 50%;
+}
+.formulario{
+    width: 50%;
+    display: inline;
+    border-radius: 25px;
+    /* background: rgb(52, 221, 165); */
+/*     border-right: 1px solid rgb(77, 77, 77); */
+}
+.contacto_info{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px 50px 50px 50px;
+/*     min-height: 400px; */
+}
+label{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 70px 0 30px 0;
+}
+
+.form_control{
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    border: 1px solid grey ;
+}
+.form_control.mensaje{
+    height: 120px;
+}
+form .btn {
+    margin-top: 30px;
+    width: 100px;
+}
+.btn.btn-primary{
+    padding: 12px 25px 12px 25px;
+}
+
+
+/************************ bluweb********************* */
+
+.datos-contacto li{
+	color: #444;
+	padding-bottom: 5px;
+}
+.datos-contacto li i{
+	color: rgb(52, 221, 165) ;;
+	font-size: 60px;
+}
+.datos-contacto{
+    list-style: none;
+    text-align: center;
+}
+.datos{
+    color: #999;
+    width: 50%;
+    height: 50%;
+}
+.datos ul li .fa{
+    margin-top: 30px;
+}
+.datos ul li .fab{
+    margin-top: 30px;
+}
+@media screen and (min-width:240px) and (max-width:620px)
+{
+    .mobile-101{
+        width: 100%;
+        height: auto;
+    }
+    .contacto_info{
+        padding:  50px 0 50px 0;
+    }
+}
