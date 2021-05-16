@@ -47,7 +47,7 @@ form{
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
-    margin: 70px 0 30px 0;
+    margin: 70px 0 70px 0;
 }
 
 .form_control{
@@ -67,9 +67,15 @@ form .btn {
     width: 100px;
 }
 .btn.btn-primary{
+    width: 100%;
+    /* border: 1px solid rgb(52, 221, 165); */
     padding: 12px 25px 12px 25px;
 }
-
+.btn.btn-primary:hover{
+    background-color: rgb(52, 221, 165);
+    border: 1.5px solid black;
+    color: black;
+}
 
 /************************ bluweb********************* */
 
@@ -104,5 +110,8 @@ form .btn {
     }
     .contacto_info{
         padding:  50px 0 50px 0;
+    }
+    .ocultar620{
+        display: none;
     }
 }

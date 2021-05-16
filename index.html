@@ -115,62 +115,11 @@
             </div>
         </div>
     </div>
-    <!---------------oculto temporalmente con display none------------>
-    <!---------------Se me mantienen todas las clases de CSS----------->
-    <!-- <section>
-        <div class="herramienta">
-            <img src="imagenes/herramientas/html-hojita-naranja.svg" alt="">
-        </div>
+    <hr class="hr-loco">
 
-        <div class="herramienta">
-            <img src="imagenes/herramientas/css-hojita.svg" alt="">
-        </div>
-
-        <div class="herramienta">
-            <img src="imagenes/herramientas/JS-hojita.svg" alt="">
-        </div>
-
-        <div class="herramienta">
-            <img src="imagenes/herramientas/json-hojita.svg" alt="">
-        </div>
-
-        <div class="herramienta">
-            <img src="imagenes/herramientas/json-hojita.svg" alt="">
-        </div>
-
-        <div class="herramienta">
-            <img class="herramienta_img" src="imagenes/herramientas/React-azul-loco.jfif" alt="">
-        </div>
-
-        <div class="herramienta">
-            <img class="herramienta_img" src="imagenes/herramientas/github-azul-circle.svg" alt="">
-        </div>
-    </section> -->
-    <!-- <section class="cajitas">
-        <div class="cajitas_caja caja-mobile-100">
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Jquery</li>
-                <li>Firebase</li>
-            </ul>
-        </div>
-
-        <div class="cajitas_caja caja-mobile-100">
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-            </ul>
-        </div>
-    </section> -->
-
-    <div id="carouselExampleCaptions" class="carousel slide mobile-80" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide mobile-80 my-5" data-bs-ride="carousel">
         <!---------------------esto controla los puntos centrales de navegacion----------------------------->
-        <div class="carousel-indicators">
+        <div class="carousel-indicators d-none">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
@@ -212,12 +161,12 @@
             </div>
         </div>
         <!----------------------botones laterales para pasar la imagen-------------------->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev ocultar620" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-next ocultar620" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
@@ -260,7 +209,7 @@
 
             <div class="datos mobile-101">
                 <ul class="px-0 datos-contacto">
-                    <li><i class="fa fa-mobile" aria-hidden="true"></i></li>
+                    <li><a href="tel:+541154751721"><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
 			        <li><h4>Teléfono:</h4>+54 11-5475-1721</li>
                 </ul>
             </div>
@@ -268,7 +217,19 @@
             <div class="datos mobile-101">
                 <ul class="px-0 datos-contacto">
                     <li>
-                        <a href="mailto:fernando.proff@hotmail.com">
+                        <a href="mailto:fernando.proff@hotmail.com
+                        ?subject=FerCode.com.ar
+                        &body=*COMPLETA LOS CAMPOS Y TE CONTACTARÉ EN BREVE*
+                        %0D
+                        %0DHola, te contacto desde tu página web.
+                        %0DMi nombre es: 
+                        %0DMi número de teléfono es: (opcional)
+                        %0DPrefiero que me contacten via:
+                        %0DMe gustaría que te pongas en contacto conmigo para hablar sobre:
+                        %0D
+                        %0D*COMPLETA LOS CAMPOS Y TE CONTACTARÉ EN BREVE*
+                        %0D
+                        ">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                         </a>
                     </li>
@@ -297,6 +258,16 @@
             emailjs.init("user_7HgIwIPBXTz3waeQyJgN1");
         })();
     </script> -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"

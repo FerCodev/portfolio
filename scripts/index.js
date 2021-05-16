@@ -2,13 +2,14 @@ let abrir = document.querySelector('.hamb')
 let cerrar = document.querySelector('.btn-danger')
 let nav = document.querySelector('nav')
 let navMobile= document.querySelector('.nav-mobile')
-let dom = document.querySelector('body')
 let cv = document.querySelector('.cv') 
 
 let liInicio = document.querySelector('.ini')
 let sobreMi = document.querySelector('.sobreMi')
 let herramientas= document.querySelector('.herramientas')
 let contacto = document.querySelector('.contacto-li')
+
+let inicio = document.querySelector('.inicio')
 
 
 function open(e){
@@ -48,43 +49,9 @@ const cerrarDom = () => {
     footer.addEventListener('click', close)
     inicioContenedor.addEventListener('click', close)
     
+    
+    
 }
 cerrarDom()
 
-
-//PRIMER CODIGO (ANTES DE OPTIMIZAR)
-
-/* abrir.addEventListener('click', (e)=>{
-    e.preventDefault()
-    nav.classList.add("ocultar")
-    navMobile.classList.remove("ocultar")
-    console.log('diste click en abrir')
-}) */
-
-/* cerrar.addEventListener('click', ()=>{
-    navMobile.classList.add("ocultar")
-    nav.classList.remove("ocultar")
-}) */
-
-/* sobreMi.addEventListener('click', ()=>{
-    navMobile.classList.add("ocultar")
-    nav.classList.remove("ocultar")
-    console.log('le diste click a sobre mi')
-}) */
-
-/* liInicio.addEventListener('click', ()=>{
-    navMobile.classList.add("ocultar")
-    nav.classList.remove("ocultar")
-    console.log('le diste click al inicio')
-}) */
-
-/* herramientas.addEventListener('click', ()=>{
-    navMobile.classList.add("ocultar")
-    nav.classList.remove("ocultar")
-    console.log('le diste click al contacto')
-}) */
-/* contacto.addEventListener('click', ()=>{
-    navMobile.classList.add("ocultar")
-    nav.classList.remove("ocultar")
-    console.log('le diste click al contacto')
-}) */
+/* inicio.addEventListener('click', close) */
